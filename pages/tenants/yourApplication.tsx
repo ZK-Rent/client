@@ -25,6 +25,14 @@ const yourApplication: NextPage = () => {
           Your Applications
         </h1>
 
+        <div className={styles.card}>
+            <h2>Lovely appartment Berlin</h2>
+            <div className="lowerhalf">
+              <div className="buttons-section-applicant">
+                <div className={styles.waiting_response}>Waiting for Response</div>
+              </div>
+            </div>
+        </div>
         
       </main>
 

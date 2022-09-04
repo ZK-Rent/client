@@ -32,7 +32,7 @@ const Tenant: NextPage = () => {
 
         <div className={styles.grid}>
           <a href="" className={styles.card}>
-            <h2>Cosy appartment Paris &rarr;</h2>
+            <Link href="./apply"><h2>Cosy appartment Paris &rarr;</h2></Link>
             <img src="../appartment_1.png" className={styles.card_img_a}></img>
             <p>50m2 - 1500$/month</p>
           </a>
