@@ -102,7 +102,7 @@
 }
 
 .metabtn {
-  background-color: #412db0; /* Green */
+  background-color: #412db0; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -113,7 +113,7 @@
   margin: auto;
   margin-left: 10px;
   margin-right: 10px;
-  border-radius: 10%;
+  border-radius: 10px;
 
 }
 
@@ -143,14 +143,7 @@
   font-weight: bold;
 }
 
-.my_input{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  display: inline;
-  
-}
+
 
 .input {
   width: 100%;
@@ -213,4 +206,24 @@
 .proof{
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.offer_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.my_input{
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: inline;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  font-weight: bold;
+  
 }
