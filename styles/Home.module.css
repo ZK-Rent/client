@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -115,4 +115,26 @@
   margin-right: 10px;
   border-radius: 10%;
 
+}
+
+.logoPerso{
+  height: 10px !important;
+  width : 10px !important;
+}
+
+.card_img {
+	width: 50px;
+	height: 50px;
+}
+.card_img_ld {
+  margin-top: 50px ;
+	width: 50px;
+	height: 50px;
+  text-align: center;
+}
+
+.logo_blase{
+  font-size: 35px;
+  margin-left: 10px;
+  font-weight: bold;
 }

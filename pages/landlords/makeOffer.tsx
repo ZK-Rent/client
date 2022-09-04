@@ -1,10 +1,11 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
+import NavbarScroller from '../nav_logo';
 
-const Landlord: NextPage = () => {
+const makeOffer: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,13 +16,16 @@ const Landlord: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavbarScroller></NavbarScroller>
 
       <main className={styles.main}>
         <ConnectButton />
 
         <h1 className={styles.title}>
-          Landlord dashboard
+          Make an offer !
         </h1>
+        <p>Submit an offer and allow your future tenants to submit their application in a secure manner.
+        </p>
        
       </main>
 
@@ -34,4 +38,4 @@ const Landlord: NextPage = () => {
   );
 };
 
-export default Landlord;
+export default makeOffer;

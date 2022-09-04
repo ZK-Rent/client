@@ -1,8 +1,9 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 import Link from 'next/link';
+import NavbarScroller from '../nav_logo';
 
 const Tenant: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Tenant: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <NavbarScroller></NavbarScroller>
 
       <main className={styles.main}>
         <ConnectButton />
@@ -23,9 +25,15 @@ const Tenant: NextPage = () => {
           Tenant dashboard
         </h1>
 
+        <div className={styles.description}>
+            <button className={styles.metabtn}><Link href="./createEscrow">Create an Escrow</Link></button>
+            <button className={styles.metabtn}><Link href="./yourApplication">Your applications</Link></button>
+        </div>
+
         <div className={styles.grid}>
           <a href="https://rainbowkit.com" className={styles.card}>
             <h2>RainbowKit Documentation &rarr;</h2>
+            <img src="../logo.png" className={styles.card_img}></img>
             <p>Learn how to customize your wallet connection flow.</p>
           </a>
 

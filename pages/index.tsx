@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import NavbarScroller from './nav_logo';
 
 const Home: NextPage = () => {
   return (
@@ -11,11 +12,11 @@ const Home: NextPage = () => {
         <title>ZK Rental</title>
         <meta
           name="description"
-          content="ZK Rent plateform"
+          content="ZK-Rent plateform"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <NavbarScroller></NavbarScroller>
       <main className={styles.main}>
         <ConnectButton />
 
@@ -30,12 +31,12 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.description}>
-            <button className={styles.metabtn}><Link href="/tenant">Tenants</Link></button>
-            <button className={styles.metabtn}><Link href="/landlord">Landlords</Link></button>
+            <button className={styles.metabtn}><Link href="tenants/tenant">Tenants</Link></button>
+            <button className={styles.metabtn}><Link href="landlords/landlord">Landlords</Link></button>
         </div>
-        <div>
-          <img src="/logo.png"></img>
-        </div>
+        <img src="/logo.png" className={styles.card_img_ld}></img>
+
+        
       </main>
 
       <footer className={styles.footer}>
