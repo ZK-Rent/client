@@ -2,20 +2,31 @@ import "../styles/globals.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import type { AppProps } from "next/app";
 import { RainbowKitProvider, getDefaultWallets } from "@rainbow-me/rainbowkit";
-import { chain, configureChains, createClient, WagmiConfig } from "wagmi";
-import { alchemyProvider } from "wagmi/providers/alchemy";
-import { publicProvider } from "wagmi/providers/public";
+import { Chain, configureChains, createClient, WagmiConfig } from "wagmi";
+import { jsonRpcProvider } from 'wagmi/providers/jsonRpc';
+
+const gnosisChain: Chain = {
+  id: 100,
+  name: 'GnosisChain',
+  network: 'gnosis',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'Gnosis',
+    symbol: 'xDai',
+  },
+  rpcUrls: {
+    default: 'https://rpc.gnosischain.com	',
+  },
+  blockExplorers: {
+    default: { name: 'Gnosis Scan', url: 'https://gnosisscan.io/' },
+    etherscan: { name: 'SnowTrace', url: 'https://snowtrace.io' },
+  },
+  testnet: false,
+};
 
 const { chains, provider, webSocketProvider } = configureChains(
-  [chain.goerli],
-  [
-    alchemyProvider({
-      // This is Alchemy's default API key.
-      // You can get your own at https://dashboard.alchemyapi.io
-      apiKey: "U6r2nruwO_N4rDwJMj7hpxijLM5x6h67",
-    }),
-    publicProvider(),
-  ]
+  [gnosisChain],
+  [jsonRpcProvider({ rpc: chain => ({ http: chain.rpcUrls.default }) })]
 );
 
 const { connectors } = getDefaultWallets({
