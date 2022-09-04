@@ -70,12 +70,12 @@ const MakeOffer: NextPage = () => {
               onChange={(e) => setDepositRequirement(e.target.value)}
             />
           </label>
-          <input
-            disabled={!write}
+          <button
+            disabled={!description || !incomeRequirement || !depositRequirement}
             onClick={() => write?.()}
-            type="submit"
-            value="Create offer"
-          />
+          >
+            Create offer
+          </button>
         </form>
       </main>
 
