@@ -28,7 +28,7 @@ const seeAcceptedApplicant: NextPage = () => {
         <div className={styles.card}>
             <h2>Lovely appartment Berlin</h2>
             <div className="lowerhalf">
-              <div className={styles.description_applicant}>Hey I'm Sandy a Firefighter.</div>
+              <div className={styles.description_applicant}>Hey I&apos;m Sandy a Firefighter.</div>
               <div className="buttons-section-applicant">
                 <div className={styles.accepted_offer}>Accepted</div>
               </div>

@@ -29,7 +29,7 @@ const seeApplicants: NextPage = () => {
           <div className={styles.card}>
             <h2>Cosy appartment Paris</h2>
             <div className="lowerhalf">
-              <div className={styles.description_applicant}>Hey I'm Matt a Web3 Dev.</div>
+              <div className={styles.description_applicant}>Hey I&apos;m Matt a Web3 Dev.</div>
               <div className="buttons-section-applicant">
                 <button className={styles.accept_offer}>accept</button>
                 <button className={styles.decline_offer}>decline</button>
@@ -40,7 +40,7 @@ const seeApplicants: NextPage = () => {
           <div className={styles.card}>
             <h2>Lovely appartment Berlin</h2>
             <div className="lowerhalf">
-              <div className={styles.description_applicant}>Hey I'm Sandy a Firefighter.</div>
+              <div className={styles.description_applicant}>Hey I&apos;m Sandy a Firefighter.</div>
               <div className="buttons-section-applicant">
                 <button className={styles.accept_offer}>accept</button>
                 <button className={styles.decline_offer}>decline</button>
