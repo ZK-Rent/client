@@ -24,6 +24,31 @@ const seeApplicants: NextPage = () => {
         <h1 className={styles.title}>
           Here are the applications for your rentals
         </h1>
+
+        <div className={styles.grid}>
+          <div className={styles.card}>
+            <h2>Cosy appartment Paris</h2>
+            <div className="lowerhalf">
+              <div className={styles.description_applicant}>Hey I&apos;m Matt a Web3 Dev.</div>
+              <div className="buttons-section-applicant">
+                <button className={styles.accept_offer}>accept</button>
+                <button className={styles.decline_offer}>decline</button>
+              </div>
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <h2>Lovely appartment Berlin</h2>
+            <div className="lowerhalf">
+              <div className={styles.description_applicant}>Hey I&apos;m Sandy a Firefighter.</div>
+              <div className="buttons-section-applicant">
+                <button className={styles.accept_offer}>accept</button>
+                <button className={styles.decline_offer}>decline</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
        
       </main>
 

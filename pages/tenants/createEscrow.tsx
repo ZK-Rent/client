@@ -22,16 +22,16 @@ const createEscrow: NextPage = () => {
         <ConnectButton />
 
         <h1 className={styles.title}>
-          Create an Escrow to securise your rental deposit
+          Create an Escrow to secure your rental deposit
         </h1>
 
         <form>
           <label className={styles.my_input}>
-            Name :
+            Name
             <input type="text" name="name" />
           </label>
           <label className={styles.my_input}>
-            Description :
+            Description
             <input type="text" name="description" />
           </label>
           <input type="submit" value="Create Escrow" />
