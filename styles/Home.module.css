@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 60vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -99,4 +99,59 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.metabtn {
+  background-color: #412db0; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10%;
+
+}
+
+.logoPerso{
+  height: 10px !important;
+  width : 10px !important;
+}
+
+.card_img {
+	width: 50px;
+	height: 50px;
+}
+.card_img_a {
+	width: 250px;
+	height: 100px;
+}
+.card_img_ld {
+  margin-top: 50px ;
+	width: 50px;
+	height: 50px;
+  text-align: center;
+}
+
+.logo_blase{
+  font-size: 35px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.my_input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: inline;
+  
+}
+
+.input {
+  width: 100%;
 }
