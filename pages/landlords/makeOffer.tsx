@@ -26,7 +26,7 @@ const makeOffer: NextPage = () => {
         </h1>
         <p>Submit an offer and allow your future tenants to submit their application in a secure manner.
         </p>
-        <form>
+        <form className={styles.offer_form}>
           <label className={styles.my_input}>
             Title :
             <input type="text" name="title" />
@@ -43,7 +43,7 @@ const makeOffer: NextPage = () => {
             Deposit amount :
             <input type="text" name="deposit_amount" />
           </label>
-          <input type="submit" value="Create offer" />
+          <input type="submit" value="Create offer" className={styles.metabtn} />
         </form>
        
       </main>
