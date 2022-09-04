@@ -31,47 +31,43 @@ const Tenant: NextPage = () => {
         </div>
 
         <div className={styles.grid}>
-          <a href="https://rainbowkit.com" className={styles.card}>
-            <h2>RainbowKit Documentation &rarr;</h2>
-            <img src="../logo.png" className={styles.card_img}></img>
-            <p>Learn how to customize your wallet connection flow.</p>
+          <a href="" className={styles.card}>
+            <h2>Cosy appartment Paris &rarr;</h2>
+            <img src="../appartment_1.png" className={styles.card_img_a}></img>
+            <p>50m2 - 1500$/month</p>
           </a>
 
-          <a href="https://wagmi.sh" className={styles.card}>
-            <h2>wagmi Documentation &rarr;</h2>
-            <p>Learn how to interact with Ethereum.</p>
+          <a href="" className={styles.card}>
+            <h2>Lovely appartment Berlin &rarr;</h2>
+            <img src="../appartment_2.png" className={styles.card_img_a}></img>
+            <p>30m2 - 900$/month</p>
           </a>
 
-          <a
-            href="https://github.com/rainbow-me/rainbowkit/tree/main/examples"
-            className={styles.card}
-          >
-            <h2>RainbowKit Examples &rarr;</h2>
-            <p>Discover boilerplate example RainbowKit projects.</p>
+          <a href="" className={styles.card}>
+            <h2>Cosy appartment Warsaw &rarr;</h2>
+            <img src="../appartment_3.png" className={styles.card_img_a}></img>
+            <p>40m2 - 1400$/month</p>
           </a>
 
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Next.js Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="" className={styles.card}>
+            <h2>Sunny appartment Lisbon &rarr;</h2>
+            <img src="../appartment_4.png" className={styles.card_img_a}></img>
+            <p>60m2 - 1200$/month</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Next.js Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="" className={styles.card}>
+            <h2>WoW appartment L.A &rarr;</h2>
+            <img src="../appartment_5.png" className={styles.card_img_a}></img>
+            <p>500m2 - 15000$/month</p>
           </a>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="" className={styles.card}>
+            <h2>Nerd appartment Talin &rarr;</h2>
+            <img src="../appartment_6.png" className={styles.card_img_a}></img>
+            <p>150m2 - 999$/month</p>
           </a>
+
+          
         </div>
       </main>
 
