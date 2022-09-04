@@ -38,31 +38,31 @@ const Tenant: NextPage = () => {
           </a>
 
           <a href="" className={styles.card}>
-            <h2>Lovely appartment Berlin &rarr;</h2>
+          <Link href="./apply"><h2>Lovely appartment Berlin &rarr;</h2></Link>
             <img src="../appartment_2.png" className={styles.card_img_a}></img>
             <p>30m2 - 900$/month</p>
           </a>
 
           <a href="" className={styles.card}>
-            <h2>Cosy appartment Warsaw &rarr;</h2>
+          <Link href="./apply"><h2>Cosy appartment Warsaw &rarr;</h2></Link>
             <img src="../appartment_3.png" className={styles.card_img_a}></img>
             <p>40m2 - 1400$/month</p>
           </a>
 
           <a href="" className={styles.card}>
-            <h2>Sunny appartment Lisbon &rarr;</h2>
+          <Link href="./apply"><h2>Sunny appartment Lisbon &rarr;</h2></Link>
             <img src="../appartment_4.png" className={styles.card_img_a}></img>
             <p>60m2 - 1200$/month</p>
           </a>
 
           <a href="" className={styles.card}>
-            <h2>WoW appartment L.A &rarr;</h2>
+          <Link href="./apply"><h2>WoW appartment L.A &rarr;</h2></Link>
             <img src="../appartment_5.png" className={styles.card_img_a}></img>
             <p>500m2 - 15000$/month</p>
           </a>
 
           <a href="" className={styles.card}>
-            <h2>Nerd appartment Talin &rarr;</h2>
+          <Link href="./apply"><h2>Nerd appartment Talin &rarr;</h2></Link>
             <img src="../appartment_6.png" className={styles.card_img_a}></img>
             <p>150m2 - 999$/month</p>
           </a>
